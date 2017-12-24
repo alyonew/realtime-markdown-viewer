@@ -1,6 +1,6 @@
 var express = require('express');
-    mongoose = require('mongoose'),
-    bodyParser = require('body-parser'),
+var mongoose = require('mongoose'),
+var bodyParser = require('body-parser'),
 
 mongoose.connect(process.env.MONGOLAB_URI, function (error) {
     if (error) console.error(error);
