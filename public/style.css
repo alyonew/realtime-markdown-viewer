@@ -1,10 +1,7 @@
 html, body, section, .full-height {
-   display: inline-block;
-		width: 49%;
+
 		height: 100%;
-		vertical-align: top;
-		box-sizing: border-box;
-		padding: 0 20px;
+
 } 
 
 #pad{
@@ -14,7 +11,7 @@ html, body, section, .full-height {
     overflow: auto;
     outline: none;
     resize: none;
-
+height: 100%;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -22,5 +19,6 @@ html, body, section, .full-height {
 
 #markdown {
     overflow: auto;
+	height: 100%;
     border-left: 1px solid black;
 }
