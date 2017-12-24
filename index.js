@@ -1,5 +1,11 @@
 var express = require('express');
+    mongoose = require('mongoose'),
+    bodyParser = require('body-parser'),
 
+mongoose.connect(process.env.MONGOLAB_URI, function (error) {
+    if (error) console.error(error);
+    else console.log('mongo connected');
+});
 
 var app = express();
 app.set('view engine', 'ejs');
