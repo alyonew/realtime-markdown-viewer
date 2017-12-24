@@ -13,3 +13,15 @@ window.onload = function() {
 
     convertTextAreaToMarkdown();
 };
+
+function add() {
+    
+    const doc = document.getElementById('pad').value;
+    db.collection('dosc').insert(doc, (err, result) => {
+      if (err) {
+        res.send({ 'error': 'An error has occurred' });
+      } else {
+        res.send(result.ops[0]);
+      }
+    });
+}
