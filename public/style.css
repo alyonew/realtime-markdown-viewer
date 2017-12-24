@@ -8,24 +8,23 @@ html, body, section, .full-height {
 	}
 
 .button1{
-		float: right;
-		font-size: 14px;
-		cursor: pointer;
-		margin-top: 4px;
-		text-align: center;
-		color: #333333;
-		border-style: outset;
-		border-color: #FFDEAD;
-		border-width: 2px;
-		background-color: #9bceff;
-		height: 30%;
-		width: 50%;
-		font-style: italic;}
+	text-align: center;
+color: #A52A2A;
+background-color: #F5F5DC;
+border-style: outset;
+border-color: #FFDEAD;
+border-width: 2px;
+height: 30%;
+width: 50%;
+font-size: 2vw;
+margin-left: 25%;
+font-style: italic;
+}
 .Title {
 		margin-left: 25px;
 		font-size: 18px;
-		color: #FFFFFF;
-		font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+		color: #333333;
+		width: auto;
 	}
 #pad{
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
