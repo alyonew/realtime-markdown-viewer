@@ -6,22 +6,18 @@ html, body, section, .full-height {
 		width: 100%;
 		background-color: #9bceff;
 	}
-.sidebar {
-		width: 240px;
-		background-color: #22313F;
-		color: #FFFFFF;
-		left:-270px;
-		border-top: 0px solid #868E96;
-		top: 48px;
-	}
+
 button1{
-		float: right;
-		margin-right: 10px;
 		font-size: 14px;
 		padding: 10px;
-		border-radius: 2px;
 		cursor: pointer;
-		margin-top: 6px;}
+		margin-top: 4px;
+		text-align: center;
+		color: #333333;
+		background-color: #9bceff;
+		height: 30%;
+		width: 50%;
+		font-style: italic;}
 .Title {
 		padding: 12px;
 		font-size: 18px;
@@ -43,6 +39,6 @@ button1{
 
 #markdown {
     overflow: auto;
-    margin-top: 48px;
+    margin-top: 4px;
     border-left: 1px solid black;
 }
