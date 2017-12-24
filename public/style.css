@@ -1,9 +1,24 @@
 html, body, section, .full-height {
-
 		height: 100%;
-
 } 
-
+.header {
+		height: 48px;
+		width: 100%;
+		background-color: #22313F;
+		z-index: 99999;
+		position: fixed;
+	}
+.sidebar {
+		position: fixed;
+		width: 240px;
+		background-color: #22313F;
+		z-index: 0;
+		color: #FFFFFF;
+		left:-270px;
+		transition: 0.3s;
+		border-top: 0px solid #868E96;
+		top: 48px;
+	}
 #pad{
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 
