@@ -2,20 +2,18 @@ html, body, section, .full-height {
      height: 100%;
 } 
 .header {
-		height: 48px;
-		width: auto;
+		height: 50px;
+		width: 100%;
 		background-color: #9bceff;
 	}
 
 .button1 {
-	margin-top: 5px;
-	margin-left: 25px;
 	text-align: center;
 	color: black;
 	background-color: ##3fa1ff;
 	border-style: outset;
 	border-width: 2px;
-	height: 30%;
+	height: 30px;
 	width: 150px;
 	font-size: 2vw;
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
