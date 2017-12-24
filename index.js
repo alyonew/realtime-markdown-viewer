@@ -3,6 +3,7 @@ var MongoClient = require('mongodb').MongoClient;
 var bodyParser = require('body-parser'),
 const db = require('./config/db');
 var app = express();
+app.use(bodyParser.urlencoded({ extended: true }));
 MongoClient.connect(db.url, function (error) {
     if (error) console.error(error);
     else console.log('mongo connected');
