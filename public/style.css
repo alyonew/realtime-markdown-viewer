@@ -8,7 +8,7 @@ html, body, section, .full-height {
 	}
 
 .button1 {
-	margin-top: 4px;
+	padding: 4px;
 	text-align: center;
 	color: black;
 	background-color: ##3fa1ff;
@@ -16,7 +16,7 @@ html, body, section, .full-height {
 	border-width: 2px;
 	height: 30px;
 	width: 200px;
-	font-size: 14px;
+	font-size: 18px;
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
