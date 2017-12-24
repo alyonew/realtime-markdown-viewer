@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb://alyonew:alyonew@ds053312.mongolab.com:53312/lab6'
+    url: 'mongodb://localhost:27017/local'
 };
