@@ -3,7 +3,7 @@ html, body, section, .full-height {
 } 
 .header {
 		height: 48px;
-		width: 100%;
+		width: auto;
 		background-color: #9bceff;
 	}
 
@@ -14,6 +14,9 @@ html, body, section, .full-height {
 		margin-top: 4px;
 		text-align: center;
 		color: #333333;
+		border-style: outset;
+		border-color: #FFDEAD;
+		border-width: 2px;
 		background-color: #9bceff;
 		height: 30%;
 		width: 50%;
