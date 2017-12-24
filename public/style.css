@@ -14,6 +14,20 @@ html, body, section, .full-height {
 		border-top: 0px solid #868E96;
 		top: 48px;
 	}
+button1{
+		float: right;
+		margin-right: 10px;
+		font-size: 14px;
+		padding: 10px;
+		border-radius: 2px;
+		cursor: pointer;
+		margin-top: 6px;}
+.Title {
+		padding: 12px;
+		font-size: 18px;
+		color: #FFFFFF;
+		font-family: 'Monaco', courier, monospace;
+	}
 #pad{
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 
