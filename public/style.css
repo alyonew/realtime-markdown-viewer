@@ -8,8 +8,8 @@ html, body, section, .full-height {
 	}
 
 .button1{
+		float: right;
 		font-size: 14px;
-		padding: 10px;
 		cursor: pointer;
 		margin-top: 4px;
 		text-align: center;
@@ -22,7 +22,7 @@ html, body, section, .full-height {
 		width: 50%;
 		font-style: italic;}
 .Title {
-		padding: 12px;
+		margin-left: 25px;
 		font-size: 18px;
 		color: #FFFFFF;
 		font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
