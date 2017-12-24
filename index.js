@@ -1,4 +1,13 @@
 var express = require('express');
+var mongoose = require('mongoose'),
+var config = require('./config/DB');
+
+mongoose.Promise = global.Promise;
+mongoose.connect(config.DB).then(
+          () => {console.log('Database is connected') },
+          err => { console.log('Can not connect to the database'+ err)}
+        );
+
 var app = express();
 
 app.set('view engine', 'ejs');
