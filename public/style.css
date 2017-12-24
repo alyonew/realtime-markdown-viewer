@@ -5,17 +5,12 @@ html, body, section, .full-height {
 		height: 48px;
 		width: 100%;
 		background-color: #22313F;
-		z-index: 99999;
-		position: fixed;
 	}
 .sidebar {
-		position: fixed;
 		width: 240px;
 		background-color: #22313F;
-		z-index: 0;
 		color: #FFFFFF;
 		left:-270px;
-		transition: 0.3s;
 		border-top: 0px solid #868E96;
 		top: 48px;
 	}
@@ -26,14 +21,14 @@ html, body, section, .full-height {
     overflow: auto;
     outline: none;
     resize: none;
-height: 100%;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    margin-top: 48px;
 }
 
 #markdown {
     overflow: auto;
-	height: 100%;
+    margin-top: 48px;
     border-left: 1px solid black;
 }
