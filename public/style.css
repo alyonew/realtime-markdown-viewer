@@ -1,0 +1,42 @@
+html, body, section, .full-height {
+     height: 100%;
+} 
+.header {
+	padding: 10px;
+		height: 50px;
+		width: 100%;
+		background-color: #9bceff;
+	}
+
+.button1 {
+	margin-left: 15px;
+	cursor: pointer;
+	padding: 2px;
+	text-align: center;
+	color: black;
+	background-color: #3fa1ff;
+	border-style: outset;
+	border-width: 2px;
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+#documents{
+    margin-top: 4px;
+    border-right: 1px solid black;
+}
+
+#pad{
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border: none;
+    overflow: auto;
+    margin-top: 4px;
+}
+
+#markdown {
+    overflow: auto;
+    margin-top: 4px;
+    border-left: 1px solid black;
+}
