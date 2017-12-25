@@ -41,7 +41,7 @@
                 newFile: null,
                 newFileData: '',
                 files: [
-                ]
+                ],
             },
             computed: {
                 compiledMarkdown: function () {
@@ -75,7 +75,9 @@
                         }
                         else {
                             var index = this.files.indexOf(this.currentFile);
-                            Vue.set(this.files, index, { id: this.currentFile.id, fileName: this.currentFile.fileName, fileData: this.input + ' ' })
+                            Vue.set(this.files, index, { id: this.currentFile.id, fileName: this.currentFile.fileName, 
+
+fileData: this.input + ' ' })
                             this.currentFile = this.files[index];
                             this.putFiles();
                         }
